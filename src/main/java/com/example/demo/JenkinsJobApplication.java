@@ -12,7 +12,7 @@ public class JenkinsJobApplication {
 
 	@PostConstruct
 	public void init(){
-		log.info("Jenkins job demo");
+		log.info("Logging Jenkins job demo");
 		System.out.println("Jenkins job test");
 	}
 
